@@ -47,3 +47,32 @@ h1{
     border-color: #47ADF1;
     color: white;
 }
+
+/*prima lista*/
+.lista{
+    background-color: white;
+    margin:0 auto;
+    max-width: 900px;
+}
+
+h1>span{
+    font-size: 30px;
+    vertical-align: top;
+}
+
+li>span{
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.editoriale{
+    background-color: #45ABEA;
+}
+
+.done::before{
+    content:"\1F5F8";
+    color: green;
+    font-size: 20px;
+    border: 1px solid green;
+}
