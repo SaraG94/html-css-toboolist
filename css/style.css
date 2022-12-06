@@ -8,11 +8,6 @@ body{
     background-color: #F6F8F9;
 }
 
-main{
-   padding: 20px 0px 0px 5px;
-     /*provvisorio*/
-}
-
 /*logo*/
 .logo{
     padding: 10px 0px 10px 15px;
@@ -25,10 +20,9 @@ h1{
 }
 
 /*comandi*/
-
 .command{
     background-color: white;
-    margin:0 auto;
+    margin:25px auto 0px;
     max-width: 900px;
     border-bottom: 2px solid #F6F8F9;
 }
@@ -67,14 +61,39 @@ li>span{
     padding: 5px;
 }
 
-.editoriale{
-    background-color: #45ABEA;
-}
-
 .done::before{
     content:"\1F5F8";
     color: green;
     font-size: 20px;
     border: 1px solid green;
     border-radius: 15px;
+}
+
+.undone::before{
+    content: "\2717";
+    color: red;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+.editoriale{
+    background-color: #45ABEA;
+}
+
+.viola{
+    background-color: #9C72E4;
+}
+
+.verde{
+    background-color: #64C0A9;
+}
+.arancione{
+    background-color: #f29e33;
+}
+.rosa{
+    background-color: #D863A1;
+}
+.verdelight{
+    background-color: #B0C926;
 }
