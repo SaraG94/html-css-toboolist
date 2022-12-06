@@ -28,7 +28,8 @@ h1{
 
 .command{
     background-color: white;
-    padding: 10px 0px 5px 20px;
+    margin:0 auto;
+    max-width: 900px;
     border-bottom: 2px solid #F6F8F9;
 }
 
@@ -61,7 +62,7 @@ h1>span{
 }
 
 li>span{
-    border-radius: 10px;
+    border-radius: 15px;
     color: white;
     padding: 5px;
 }
@@ -75,4 +76,5 @@ li>span{
     color: green;
     font-size: 20px;
     border: 1px solid green;
+    border-radius: 15px;
 }
