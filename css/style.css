@@ -10,13 +10,18 @@ body{
 
 /*logo*/
 .logo{
-    padding: 10px 0px 10px 15px;
+    padding: 10px 0px 0px 15px;
     background-color: white;
 }
 
-h1{
-    display: inline-block;
+img{
+    height: 50px;
     vertical-align: middle;
+    margin-bottom: 12px;    
+}
+
+.logo-text{
+    display: inline-block;
 }
 
 /*comandi*/
@@ -44,24 +49,27 @@ h1{
     color: white;
 }
 
-/*prima lista*/
-ol{
-    list-style-type: none;
-}
-
+/*lista*/
 .lista{
     background-color: white;
     margin:0 auto;
     max-width: 900px;
+    padding: 20px;
+    line-height: 32px;
 }
 
-h1{
+ol{
+    list-style-type: none;
+}
+
+.list-title{
     padding-top: 15px;
 }
 
-h1>span{
-    font-size: 30px;
-    vertical-align: top;
+.list-title::before{
+    content:"\25BC";
+    font-size: 15px;
+    vertical-align: middle
 }
 
 li>span{
@@ -73,17 +81,21 @@ li>span{
 .done::before{
     content:"\1F5F8";
     color: green;
-    font-size: 20px;
+    font-size: 15px;
     border: 1px solid green;
     border-radius: 15px;
+    padding: 3px;
+    margin: 2px;
 }
 
 .undone::before{
     content: "\2717";
     color: red;
-    font-size: 20px;
+    font-size: 15px;
     border: 1px solid red;
     border-radius: 15px;
+    padding: 3px;
+    margin: 2px;
 }
 
 .editoriale{
