@@ -10,18 +10,18 @@ body{
 
 /*logo*/
 .logo{
-    padding: 10px 0px 0px 15px;
+    padding: 10px 0px 10px 15px;
     background-color: white;
 }
 
 img{
     height: 50px;
-    vertical-align: middle;
-    margin-bottom: 12px;    
+    vertical-align: middle;   
 }
 
 .logo-text{
     display: inline-block;
+    vertical-align: middle;
 }
 
 /*comandi*/
